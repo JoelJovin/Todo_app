@@ -14,6 +14,6 @@ const updateTodo = zod.object({
 })
 
 module.exports = {
-    craeteTodo: createTodo,
+    createTodo: createTodo,
     updateTodo: updateTodo,
 }
